@@ -1,0 +1,28 @@
+{
+  "name": "google_map_app",
+  "version": "1.0.0",
+  "description": "Utilizing google API ",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nadayulu/MEAN-google-map-app.git"
+  },
+  "author": "David Yonwook Chung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nadayulu/MEAN-google-map-app/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.5.2",
+    "express": "^4.7.4",
+    "jsonwebtoken": "^5.7.0",
+    "method-override": "^2.1.3",
+    "mongoose": "^4.1.12",
+    "morgan": "^1.2.3"
+  },
+  "homepage": "https://github.com/Nadayulu/MEAN-google-map-app#readme"
+}
