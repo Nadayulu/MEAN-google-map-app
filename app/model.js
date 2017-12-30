@@ -28,4 +28,4 @@ UserSchema.pre('save', function(next) {
 UserSchema.index({location: '2dsphere'});
 
 // Exports the UserSchema for use elsewhere. Sets the MongoDB to be used as other name
-module.exports = mognoose.model('scotch-user', UserSchema);
+module.exports = mongoose.model('scotch-user', UserSchema);
