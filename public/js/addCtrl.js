@@ -35,8 +35,8 @@ addCtrl.controller('addCtrl', function($scope, $http, geolocation){
         $scope.formData.favlang = "";
 
       })
-      .error(function(err) {
-          console.log('Error: ' + err);
+      .error(function(data) {
+          console.log('Error: ' + data);
       })
   }
 })

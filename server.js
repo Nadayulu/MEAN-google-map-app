@@ -11,7 +11,7 @@ var app = express();
 //Express Configuration
 
 //sets the connection to MongoDB
-
+mongoose.Promise = global.Promise;
 mongoose.connect("mongodb://localhost/MeanMapApp");
 
 //Logging and Parsing
