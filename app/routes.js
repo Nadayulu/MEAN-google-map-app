@@ -16,6 +16,20 @@ module.exports = function(app) {
               res.send(err);
 
             res.json(users);
+        });
+    });
+
+    //POST routes
+
+    //creating new users in the db
+    app.post('/users', function(req, res) {
+        var newUser = new User(req.body);
+
+        newUser.save(function(err) {
+            if(err)
+              res.send(err);
+
+            res.json(req.body);
         })
     })
 }
